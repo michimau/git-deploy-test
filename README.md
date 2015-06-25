@@ -1,7 +1,7 @@
 ![How it works](http://olipo186.github.com/Github-Gitlab-Auto-Deploy/images/Github-Gitlab-Auto-Deploy.png)
 
 # What is it?
-
+ 
 
 This is a small HTTP server written in python.
 It allows you to have a version of your project installed, that will be updated automatically on each Github or Gitlab push.

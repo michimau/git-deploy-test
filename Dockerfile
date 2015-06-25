@@ -12,7 +12,7 @@ RUN apt-get update && \
 RUN useradd gitdeploy --uid 2111 -d /home/gitdeploy && \
     mkdir -p /home/gitdeploy && \
     chown gitdeploy:gitdeploy -R /home/gitdeploy
-
+ 
 ADD GitAutoDeploy.py /opt/git-auto-deploy/
 ADD lock.sh /opt/git-auto-deploy/
 ADD unlock.sh /opt/git-auto-deploy/

@@ -8,7 +8,7 @@ RUN apt-get update && \
         python ssh git && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
+ 
 RUN useradd gitdeploy --uid 2111 -d /home/gitdeploy && \
     mkdir -p /home/gitdeploy && \
     chown gitdeploy:gitdeploy -R /home/gitdeploy

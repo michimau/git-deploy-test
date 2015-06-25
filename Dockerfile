@@ -1,7 +1,7 @@
 FROM ubuntu:15.04
 MAINTAINER Chivorotkiv <chivorotkiv@omich.net>
 LABEL Version="0.0.2" License="MIT"
- 
+
 RUN apt-get update && \
     apt-get -y -q upgrade && \
     apt-get --no-install-recommends -q -y install \

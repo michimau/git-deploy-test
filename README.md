@@ -5,7 +5,7 @@
 
 This is a small HTTP server written in python.
 It allows you to have a version of your project installed, that will be updated automatically on each Github or Gitlab push.
-   
+    
 To set it up, do the following:
 * Install python
 * Copy the ```GitAutoDeploy.conf.json.example``` to ```GitAutoDeploy.conf.json```. This file will be gitignored and can be environment specific.

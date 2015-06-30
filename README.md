@@ -20,7 +20,7 @@ You can even test the whole thing here, by clicking on the "Test Hook" button, w
 # Configure GitAutoDeploy to get executed at start up
 
 ### Debian and Sys-V like init system.
- 
+
 * Copy file ```initfiles/debianLSBInitScripts/gitautodeploy``` to ```/etc/init.d/```
 * Make it executable: ```chmod 755 /etc/init.d/gitautodeploy```
 * Also you need to make ```GitAutoDeploy.py``` executable (if it isn't already): ```chmod 755 GitAutoDeploy.py```

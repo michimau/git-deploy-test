@@ -14,7 +14,7 @@ To set it up, do the following:
 * To run it as a daemon add ```--daemon-mode```
 * On the Github or Gitlab page go to a repository, then "Admin", "Service Hooks",
 "Post-Receive URLs" and add the url of your machine + port (e.g. ```http://example.com:8001```).
- 
+  
 You can even test the whole thing here, by clicking on the "Test Hook" button, whohoo!
 
 # Configure GitAutoDeploy to get executed at start up
